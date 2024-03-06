@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/style.scss">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiper -->
+    <link
+      rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- /swiper -->
+    <title>Кухни Мишель</title>
+</head>
+<body>
+    <!----------- header ----------->
+   <header>
+    <div class="header-top">
+        <div class="container header-flex-container">
+            <p class="header-top__time">
+                Режим работы:
+                <span class="header-top__span">Пн-Вс 9:00-20:00</span>
+            </p>
+            <p class="header-top__adress">
+                г. Санкт-Петербург,
+                <span class="header-top__span">ул. Цветочная, д.2</span>
+            </p>
+        </div>
+    </div>
+        
+    <div class="header-bottom">
+        <div class="container header-flex-container">
+            <div class="header-bottom__logo">
+                <img src="./img/logo-dark.png" alt="Mishel">
+            </div>
+            <div class="header-bottom__nav">
+                <ul class="header-bottom-nav__items">
+                    <li class="header-bottom-nav__item header-bottom-nav__сatalog">
+                        <img class="header-bottom-nav__сatalog--img" src="./img/ep_menu.png" alt="">
+                        <a href="./html/catalog.html">Каталог</a>
+                        </li>
+                    <li class="header-bottom-nav__item"><a href="./html/uslugi.html">Услуги</a></li>
+                    <li class="header-bottom-nav__item header-bottom-nav__clients">
+                        <a href="#">Клиентам</a>
+                        <!-- <img class="header-bottom-nav__clients--img" src="./img/clients.png" alt=""> -->
+                        <ul class="header-dropdown">
+                            <li class="header-dopdown__item"> <a href="./html/delivery.html">Доставка и сборка</a> </li>
+                            <li class="header-dopdown__item"> <a href="./html/reviews.html">Отзывы</a> </li>
+                            <li class="header-dopdown__item"> <a href="./html/contacts.html">Контакты</a> </li>
+                        </ul>
+                    </li>
+                    <li class="header-bottom-nav__item"> <a href="./html/help.html">Помощь</a></li>
+                </ul>
+            </div>
+            <a href="#" class="header-bottom__number">
+                +7 (000)<span class="header-bottom__number--color"> 000-00-00</span>
+            </a>
+        </div>
+        
+    </div>
+       
+   </header>
+   <!----------- /header ----------->
+
+<!----------- main ----------->
+<main>
+
+<!----------- first-section ----------->
+   <section class="section-first">
+        <div class="container">
+            <div class="factory-wrapper">
+                <p class="factory-name">Фабрика «Мишель»</p>
+                <h1 class="factory-city">Кухни на заказ<br> в Санкт-Петербурге</h1>
+                <p class="factory-time">Расчёт стоимости кухни по вашим размерам <br> или по эскизу, всего за 20 минут.</p>
+                <button type="button" class="factory-btn btn--dark">Заказать замер</button>
+                <a href="./html/catalog.html" class="factory-btn btn--ligth">Перейти в каталог</a>
+            </div>
+        </div>
+   </section>
+<!----------- /first-section ----------->
+
+<!----------- section-about ----------->
+<section class="section section--ligth">
+    <div class="container">
+        <h2 class="section-title">Мебельная фабрика «Мишель» </h2>
+        <div class="about-factory">
+            <p class="about-factory__text">
+                Основана в Санкт-Петербурге в 2013 году. За это время компания прошла большой путь от салона в мебельном центре до крупной фабрики с собствен-ным производством, складами и логистической службой. За эти годы у нас сформировался большой и дружный коллектив с командой профессионалов своего дела. Из года в год мы оттачиваем наше мас-терство, внедряя новые технологии в производство и расширяя модельный ряд.
+            </p>
+            <p class="about-factory__text">
+                На сегодняшний день наше предприятие располагает не только современным производством корпусной мебели, но и большой базой проверенных партнеров - поставщиков бытовой техники, столешниц из искусственного камня. Вы смело можете доверить вашу кухню нашим специалистам, и мы гарантируем, что наша продукция станет настоящим украшением вашего дома!
+            </p>
+        </div>
+        <div class="section-about__img">
+            <img class="section-about__img--kitchen" src="./img/section-about.png" alt="Фото кухни">
+        </div>
+    </div>
+</section>
+<!----------- /section-about ----------->
+
+
+<!----------- section-cards ----------->
+<section class="section section--dark">
+    <div class="container">
+        <div class="flex-title">
+            <h2 class="section-title"> Наши работы </h2>
+            <a href="./html/catalog.html" class="cards-btn">Перейти в каталог</a>
+        </div>
+        <div class="cards-wrapper">
+            <div class="kitchen-card">
+                <span class="kitchen-card__new">новинка</span>
+                <div class="kitchen-card-description">
+                    <div class="swiper swiper-card">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next swiper-card__btn--next">
+                            <img src="./img/Vector.png" alt="">
+                        </div>
+                        <div class="swiper-button-prev swiper-card__btn--prev">
+                            <img src="./img/Vector-1.png" alt="">
+                        </div>
+                      </div>
+                      <h3 class="kitchen-card__title">
+                        Кухня «Сорренто»
+                      </h3>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Габариты (ШхВхГ):</p><span class="kitchen-card__color">1400х2000х2000 мм</span>
+                    </div>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Материал:</p><span class="kitchen-card__color">Матовый МДФ пластик</span>
+                    </div>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Стоимость:</p><span class="kitchen-card__color">138 000 ₽</span>
+                    </div>
+                    <button type="button" class="kitchen-card__order btn--dark">Заказать замер</button>
+                </div>
+                
+            </div>
+            <div class="kitchen-card">
+                <span class="kitchen-card__new">новинка</span>
+                <div class="kitchen-card-description">
+                    <div class="swiper swiper-card">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next swiper-card__btn--next">
+                            <img src="./img/Vector.png" alt="">
+                        </div>
+                        <div class="swiper-button-prev swiper-card__btn--prev">
+                            <img src="./img/Vector-1.png" alt="">
+                        </div>
+                      </div>
+                      <h3 class="kitchen-card__title">
+                        Кухня «Сорренто»
+                      </h3>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Габариты (ШхВхГ):</p><span class="kitchen-card__color">1400х2000х2000 мм</span>
+                    </div>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Материал:</p><span class="kitchen-card__color">Матовый МДФ пластик</span>
+                    </div>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Стоимость:</p><span class="kitchen-card__color">138 000 ₽</span>
+                    </div>
+                    <button type="button" class="kitchen-card__order btn--dark">Заказать замер</button>
+                </div>
+                
+            </div>
+            <div class="kitchen-card">
+                <span class="kitchen-card__new">новинка</span>
+                <div class="kitchen-card-description">
+                    <div class="swiper swiper-card">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next swiper-card__btn--next">
+                            <img src="./img/Vector.png" alt="">
+                        </div>
+                        <div class="swiper-button-prev swiper-card__btn--prev">
+                            <img src="./img/Vector-1.png" alt="">
+                        </div>
+                      </div>
+                      <h3 class="kitchen-card__title">
+                        Кухня «Сорренто»
+                      </h3>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Габариты (ШхВхГ):</p><span class="kitchen-card__color">1400х2000х2000 мм</span>
+                    </div>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Материал:</p><span class="kitchen-card__color">Матовый МДФ пластик</span>
+                    </div>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Стоимость:</p><span class="kitchen-card__color">138 000 ₽</span>
+                    </div>
+                    <button type="button" class="kitchen-card__order btn--dark">Заказать замер</button>
+                </div>
+                
+            </div>
+            <div class="kitchen-card">
+                <span class="kitchen-card__new">новинка</span>
+                <div class="kitchen-card-description">
+                    <div class="swiper swiper-card">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                          <div class="swiper-slide swiper-card__slide"><img class="kitchen-card__img" src="./img/card-img.png" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next swiper-card__btn--next">
+                            <img src="./img/Vector.png" alt="">
+                        </div>
+                        <div class="swiper-button-prev swiper-card__btn--prev">
+                            <img src="./img/Vector-1.png" alt="">
+                        </div>
+                      </div>
+                      <h3 class="kitchen-card__title">
+                        Кухня «Сорренто»
+                      </h3>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Габариты (ШхВхГ):</p><span class="kitchen-card__color">1400х2000х2000 мм</span>
+                    </div>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Материал:</p><span class="kitchen-card__color">Матовый МДФ пластик</span>
+                    </div>
+                    <div class="kitchen-card__item">
+                        <p class="kitchen-card__specifications">Стоимость:</p><span class="kitchen-card__color">138 000 ₽</span>
+                    </div>
+                    <button type="button" class="kitchen-card__order btn--dark">Заказать замер</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!----------- /section-cards ----------->
+
+<!----------- section-offer ----------->
+<section class="section section--ligth section--padding-90">
+    <div class="container">
+        <div class="sale-cards">
+            <div class="sale-card">
+                <div class="sale-card__img"><img class="sale-card__img--photo" src="./img/sale-card-first.png" alt="Кухня 1"></div>
+                <div class="sale-card__about">
+                    <span class="sale-card__about--title">-50% на все кухни</span>
+                    <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                </div>
+            </div>
+            <div class="sale-card">
+                <div class="sale-card__img"><img src="./img/sale-card-second.png" alt="Кухня 2"></div>
+                <div class="sale-card__about">
+                    <span class="sale-card__about--title">-50% на все кухни</span>
+                    <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex-title">
+            <h2 class="section-title">Можем предложить</h2>
+            <a href="./html/uslugi.html" class="cards-btn">Подробнее об услугах</a>
+        </div>
+        <div class="offer">
+            <div class="offer-card">
+                <div class="offer-card__img"><img src="./img/offer-1.png" alt="Фото1"></div>
+                <p class="offer-card__title">Установка <br> нижних шкафов</p>
+            </div>
+            <div class="offer-card">
+                <div class="offer-card__img"><img src="./img/offer-2.png" alt="Фото1"></div>
+                <p class="offer-card__title">Сборка верхнего шкафа</p>
+            </div>
+            <div class="offer-card">
+                <div class="offer-card__img"><img src="./img/offer-3.png" alt="Фото1"></div>
+                <p class="offer-card__title">Установка моек в столешницу</p>
+            </div>
+            <div class="offer-card">
+                <div class="offer-card__img"><img src="./img/offer-4.png" alt="Фото1"></div>
+                <p class="offer-card__title">Установка столешницы</p>
+            </div>
+            <div class="offer-card">
+                <div class="offer-card__img"><img src="./img/offer-5.png" alt="Фото1"></div>
+                <p class="offer-card__title">Подключение смесителя</p>
+            </div>
+            <div class="offer-card">
+                <div class="offer-card__img"><img src="./img/offer-6.png" alt="Фото1"></div>
+                <p class="offer-card__title">Установка <br> варочной панели</p>
+            </div>
+            <div class="offer-card">
+                <div class="offer-card__img"><img src="./img/offer-7.png" alt="Фото1"></div>
+                <p class="offer-card__title">Установка духового шкафа</p>
+            </div>
+            <div class="offer-card">
+                <div class="offer-card__img"><img src="./img/offer-8.png" alt="Фото1"></div>
+                <p class="offer-card__title">Установка вытяжки <br> на кухне</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------- /section-offer ----------->
+
+<!----------- section-stage ----------->
+<section class="section section--dark">
+    <div class="container">
+        <h2 class="section-title">Этапы работы</h2>
+        <div class="wrapper-stage">
+            <div class="wrapper-stage__item">
+                <div class="wrapper-stage__img"><img src="./img/steps icons.png" alt=""></div>
+                <h3 class="wrapper-stage__title">Выбор дизайна</h3>
+                <p class="wrapper-stage__text">Посмотрите наши работы. <br> Если нет времени разбираться в материалах или возникли сложности мы поможем с дизайном и предложим лучшие варианты.</p>
+            </div>
+            <div class="wrapper-stage__item">
+                <div class="wrapper-stage__img"><img src="./img/steps icons (1).png" alt=""></div>
+                <h3 class="wrapper-stage__title">Замер помещения</h3>
+                <p class="wrapper-stage__text">При заказе кухни необходимо учитывать технические моменты. Вниманию стоит уделить отверстиям под разводку коммуникаций.</p>
+            </div>
+            <div class="wrapper-stage__item">
+                <div class="wrapper-stage__img"><img src="./img/steps icons (2).png" alt=""></div>
+                <h3 class="wrapper-stage__title">Договор и оплата</h3>
+                <p class="wrapper-stage__text">После согласования утверждается дизайн проект и подписывается договор. Оплатить можно любым удобным Вам способом - наличный и безналичный расчёт.</p>
+            </div>
+            <div class="wrapper-stage__item">
+                <div class="wrapper-stage__img"><img src="./img/steps icons (3).png" alt=""></div>
+                <h3 class="wrapper-stage__title">Изготовление кухни</h3>
+                <p class="wrapper-stage__text">Срок производства составляет от 7 до 35 дней в зависимости от вашего объема заказа. Сроки могут сдвигаться в зависимости от сложности проекта.</p>
+            </div>
+            <div class="wrapper-stage__item">
+                <div class="wrapper-stage__img"><img src="./img/steps icons (4).png" alt=""></div>
+                <h3 class="wrapper-stage__title">Доставка и установка</h3>
+                <p class="wrapper-stage__text">У нас нет выходных, поэтому доставка осуществляется в удобное для Вас время. Сборка займет один день. Гарантия 3 года на наши собственные изделия.</p>
+            </div>
+            <div class="wrapper-stage__item">
+                <div class="wrapper-stage__img"><img src="./img/steps icons (5).png" alt=""></div>
+                <h3 class="wrapper-stage__title">Гарантии</h3>
+                <p class="wrapper-stage__text">После подписания акта приемки начинает действовать гарантийные обязательства по официальному договору.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------- /section-stage  ----------->
+
+
+<!----------- section-partners, feedback, FAQ  ----------->
+<section class="section section--ligth">
+    <div class="container">
+        <h2 class="section-title">Наши партнеры</h2>
+        <div class="swiper swiper-partners">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slider-partners__img"><img src="./img/par-1.png" alt=""></div>
+              <div class="swiper-slide slider-partners__img"><img src="./img/par-2.png" alt=""></div>
+              <div class="swiper-slide slider-partners__img"><img src="./img/par-3.png" alt=""></div>
+              <div class="swiper-slide slider-partners__img"><img src="./img/par-4.png" alt=""></div>
+              <div class="swiper-slide slider-partners__img"><img src="./img/par-6.png" alt=""></div>
+              <div class="swiper-slide slider-partners__img"><img src="./img/par-7.png" alt=""></div>
+              <div class="swiper-slide slider-partners__img"><img src="./img/par-1.png" alt=""></div>
+            </div>
+            <div class="swiper-button-next swiper-partners__next">
+                <img src="./img/next.png" alt="">
+            </div>
+            <div class="swiper-button-prev swiper-partners__prev">
+                <img src="./img/prev.png" alt="">
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        <div class="flex-title flex-title__btn">
+            <h2 class="section-title">Отзывы о нашей работе</h2>
+            <div class="flex-title__offer">
+                <button type="button" class="swiper-feedback__prev swiper-feedback__prev.swiper-button-disabled">
+                    <img src="./img/prev.png" alt="">
+                </button>
+                <button type="button" class="swiper-feedback__next swiper-feedback__next.swiper-button-disabled">
+                    <img src="./img/next.png" alt="">
+                </button>
+            </div>  
+        </div>
+        
+        <div class="swiper swiper-card__feedback">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slider-partners__img swiper-slide__feedback">
+                <div class="sale-cards">
+                    <div class="sale-card sale-card__about--items">
+                        <div class="sale-card__img"><img class="sale-card__img--photo" src="./img/sale-card-first.png" alt="Кухня 1"></div>
+                        <div class="sale-card__about ">
+                            <span class="sale-card__about--title">-50% на все кухни</span>
+                            <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                            <div class="sale-card__about--lower">
+                                <span class="sale-card__about__date">01.02.2022</span>
+                                <a class="sale-card__about__href" href="#">Подробнее</a>
+                            </div>  
+                        </div>
+                        
+                    </div>
+                    <div class="sale-card sale-card__about--items">
+                        <div class="sale-card__img"><img src="./img/sale-card-second.png" alt="Кухня 2"></div>
+                        <div class="sale-card__about">
+                            <span class="sale-card__about--title">-50% на все кухни</span>
+                            <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                            <div class="sale-card__about--lower">
+                                <span class="sale-card__about__date">01.02.2022</span>
+                                <a class="sale-card__about__href" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide slider-partners__img swiper-slide__feedback">
+                <div class="sale-cards">
+                    <div class="sale-card sale-card__about--items">
+                        <div class="sale-card__img"><img class="sale-card__img--photo" src="./img/sale-card-first.png" alt="Кухня 1"></div>
+                        <div class="sale-card__about">
+                            <span class="sale-card__about--title">-50% на все кухни</span>
+                            <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                            <div class="sale-card__about--lower">
+                                <span class="sale-card__about__date">01.02.2022</span>
+                                <a class="sale-card__about__href" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-card sale-card__about--items">
+                        <div class="sale-card__img"><img src="./img/sale-card-second.png" alt="Кухня 2"></div>
+                        <div class="sale-card__about">
+                            <span class="sale-card__about--title">-50% на все кухни</span>
+                            <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                            <div class="sale-card__about--lower">
+                                <span class="sale-card__about__date">01.02.2022</span>
+                                <a class="sale-card__about__href" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide slider-partners__img swiper-slide__feedback">
+                <div class="sale-cards">
+                    <div class="sale-card sale-card__about--items">
+                        <div class="sale-card__img"><img class="sale-card__img--photo" src="./img/sale-card-first.png" alt="Кухня 1"></div>
+                        <div class="sale-card__about">
+                            <span class="sale-card__about--title">-50% на все кухни</span>
+                            <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                            <div class="sale-card__about--lower">
+                                <span class="sale-card__about__date">01.02.2022</span>
+                                <a class="sale-card__about__href" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-card sale-card__about--items">
+                        <div class="sale-card__img"><img src="./img/sale-card-second.png" alt="Кухня 2"></div>
+                        <div class="sale-card__about">
+                            <span class="sale-card__about--title">-50% на все кухни</span>
+                            <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                            <div class="sale-card__about--lower">
+                                <span class="sale-card__about__date">01.02.2022</span>
+                                <a class="sale-card__about__href" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide slider-partners__img swiper-slide__feedback">
+                <div class="sale-cards">
+                    <div class="sale-card sale-card__about--items">
+                        <div class="sale-card__img"><img class="sale-card__img--photo" src="./img/sale-card-first.png" alt="Кухня 1"></div>
+                        <div class="sale-card__about">
+                            <span class="sale-card__about--title">-50% на все кухни</span>
+                            <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                            <div class="sale-card__about--lower">
+                                <span class="sale-card__about__date">01.02.2022</span>
+                                <a class="sale-card__about__href" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-card sale-card__about--items">
+                        <div class="sale-card__img"><img src="./img/sale-card-second.png" alt="Кухня 2"></div>
+                        <div class="sale-card__about">
+                            <span class="sale-card__about--title">-50% на все кухни</span>
+                            <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                            <div class="sale-card__about--lower">
+                                <span class="sale-card__about__date">01.02.2022</span>
+                                <a class="sale-card__about__href" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide slider-partners__img swiper-slide__feedback">
+                <div class="sale-cards">
+                    <div class="sale-card sale-card__about--items">
+                        <div class="sale-card__img"><img class="sale-card__img--photo" src="./img/sale-card-first.png" alt="Кухня 1"></div>
+                        <div class="sale-card__about">
+                            <span class="sale-card__about--title">-50% на все кухни</span>
+                            <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                            <div class="sale-card__about--lower">
+                                <span class="sale-card__about__date">01.02.2022</span>
+                                <a class="sale-card__about__href" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-card sale-card__about--items">
+                        <div class="sale-card__img"><img src="./img/sale-card-second.png" alt="Кухня 2"></div>
+                        <div class="sale-card__about">
+                            <span class="sale-card__about--title">-50% на все кухни</span>
+                            <p class="sale-card__about--text">Обновляем коллекцию и даем скидку 50% при заказе любой кухни из наличия или на заказ.</p>
+                            <div class="sale-card__about--lower">
+                                <span class="sale-card__about__date">01.02.2022</span>
+                                <a class="sale-card__about__href" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="swiper-pagination"></div>
+          </div>
+        <h2 class="section-title title-margin">Ответим на все ваши вопросы</h2>
+        <div class="faq-wrapper">
+            <div class="faq-wrapper__item">
+                <button data-id="1" type="button" class="faq-wrapper__question">Если вы не установите кухню в обещанный срок?</button>
+                <p class="faq-wrapper__answer">Только мы делаем установку кухонь на 100% «под ключ». Конкуренты просто собирают мебель, предоставляя
+                    клиенту самому разбираться с электрикой для подключения встроенного освещения, подсветки,
+                    подключения смесителя, вытяжки и т.д</p>
+            </div>
+            <div class="faq-wrapper__item">
+                <button data-id="2" type="button" class="faq-wrapper__question">Если вы не установите кухню в обещанный срок?</button>
+                <p class="faq-wrapper__answer">Только мы делаем установку кухонь на 100% «под ключ». Конкуренты просто собирают мебель, предоставляя
+                    клиенту самому разбираться с электрикой для подключения встроенного освещения, подсветки,
+                    подключения смесителя, вытяжки и т.д</p>
+            </div>
+            <div class="faq-wrapper__item">
+                <button data-id="3" type="button" class="faq-wrapper__question">Вы установите, а кто мне сделает подсветку, поставит мойку и смеситель?</button>
+                <p class="faq-wrapper__answer">Только мы делаем установку кухонь на 100% «под ключ». Конкуренты просто собирают мебель, предоставляя
+                    клиенту самому разбираться с электрикой для подключения встроенного освещения, подсветки,
+                    подключения смесителя, вытяжки и т.д</p>
+            </div>
+            <div class="faq-wrapper__item">
+                <button data-id="4" type="button" class="faq-wrapper__question">Если вы не установите кухню в обещанный срок?</button>
+                <p class="faq-wrapper__answer">Только мы делаем установку кухонь на 100% «под ключ». Конкуренты просто собирают мебель, предоставляя
+                    клиенту самому разбираться с электрикой для подключения встроенного освещения, подсветки,
+                    подключения смесителя, вытяжки и т.д</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------- /section-partners, feedback, FAQ  ----------->
+
+<!----------- section-sing up  ----------->
+<section class="section section--dark">
+    <div class="container">
+        <h2 class="section-title title--no-margin">Запишитесь на замер</h2>
+        <p class="section-sing-up__text">Бесплатный выезд замерщика с демонстрацией материалов. <br> Доверьте нам всю работу от дизайна до ее сборки и установки.</p>
+        
+            <form action="#" class="wrapper-inputs">
+                <div class="wrapper-inputs__data">
+                    <div class="wrapper-inputs__info">
+                        <div class="wrapper-inputs__flex">
+                            <p class="wrapper-inpust__info--title">Имя</p>
+                            <span class="wrapper-inputs__info--mandatory">Обязательное поле</span>
+                        </div>
+                        <input class="wrapper-inpust__info--input" type="text" placeholder="Введите свое имя">
+                    </div>
+                    <div class="wrapper-inputs__info">
+                        <div class="wrapper-inputs__flex">
+                            <p class="wrapper-inpust__info--title">Почта или телефон</p>
+                            <span class="wrapper-inputs__info--mandatory">Обязательное поле</span>
+                        </div>
+                        <input class="wrapper-inpust__info--input" type="text" placeholder="Введите почту или телефон">
+                    </div>
+                    <button type="button" class="wrapper-inpust__btn btn--dark ">Заказать замер</button>
+                </div>
+                <div class="wrapper-inputs__file">
+                    <div class="wrapper-inputs__file--label">
+                        <input type="file" class="wrapper-inputs__input" name="file" id="file" multiple>
+                        <div class="label-flex">
+                            <label for="file"><span class="label-input--first">Перетащите фото или</span></label>
+                            <label for="file"><span class="label-input">добавьте через проводник</span></label>
+                        </div>
+                        
+                    </div>
+                    
+                    <p class="wrapper-inputs__processing">Нажимая на кнопку вы соглашаетесь на обработку
+                        <span class="wrapper-inputs__underline">персональных данных.</span> 
+                    </p>
+                </div>
+                
+            </form>
+        
+    </div>
+</section>
+<!----------- /section-sing up  ----------->
+
+<!----------- section-map  ----------->
+<section class="section section--ligth section--relative">
+    <div id="map" style="width: 100% !important; height: 597px"></div>
+    <div class="container">
+        <div class="contact-wrapper">
+            <h2 class="section-title title--30-m">Связь с нами</h2>
+            <div class="contact-wrapper__about">
+                <img class="contact-wrapper__img" src="./img/clock.png" alt="">
+                <p class="contact-wrapper__text">Пн-Вс 9:00-20:00</p>
+            </div>
+            <div class="contact-wrapper__about">
+                <img class="contact-wrapper__img" src="./img/location.png" alt="">
+                <p class="contact-wrapper__text">г. Санкт-Петербург, ул. Цветочная, д.2</p>
+            </div>
+            <div class="contact-wrapper__about">
+                <img class="contact-wrapper__img" src="./img/phone.png" alt="">
+                <p class="contact-wrapper__text">+7(000) 000 - 00 - 00</p>
+            </div>
+            <div class="contact-wrapper__about">
+                <img class="contact-wrapper__img" src="./img/message.png" alt="">
+                <p class="contact-wrapper__text">info@vkkuhni.ru</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------- /section-map  ----------->
+</main>
+<!----------- /main ----------->
+<!----------- footer  ----------->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="footer-item">
+                <h3 class="footer-title">Кухни</h3>
+                <div class="footer-item__flex">
+                    <div class="footer-item-links footer-item__margin">
+                        <a href="#" class="footer-item-links__item">С Антресолями</a>
+                        <a href="#" class="footer-item-links__item">Угловые</a>
+                        <a href="#" class="footer-item-links__item">Прямые</a>
+                        <a href="#" class="footer-item-links__item">П-образные</a>
+                        <a href="#" class="footer-item-links__item">Небольшие</a>
+                    </div>
+                    <div class="footer-item-links footer-item__margin">
+                        <a href="#" class="footer-item-links__item">Классические</a>
+                        <a href="#" class="footer-item-links__item">Лофт</a>
+                        <a href="#" class="footer-item-links__item">Современные</a>
+                        <a href="#" class="footer-item-links__item">Минимализм</a>
+                        <a href="#" class="footer-item-links__item">Сканди</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3 class="footer-title">Клиентам</h3>
+                <div class="footer-item-links">
+                    <a href="./html/delivery.html" class="footer-item-links__item">Доставка</a>
+                    <a href="./html/delivery.html" class="footer-item-links__item">Сборка</a>
+                    <a href="#" class="footer-item-links__item">Рассрочка</a>
+                    <a href="./html/uslugi.html" class="footer-item-links__item">Услуги</a>
+                    <a href="#" class="footer-item-links__item">Небольшие</a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3 class="footer-title">Контакты</h3>
+                <div class="footer-item-links">
+                    <div class="footer-item-links--flex">
+                        <img src="./img/w-clock.png" alt="">
+                        <p class="footer-item-links__item">Пн-Вс 9:00-20:00</p>
+                    </div>
+                    <div class="footer-item-links--flex">
+                        <img src="./img/w-map.png" alt="">
+                        <p class="footer-item-links__item">г. Санкт-Петербург, <br> ул. Цветочная, д.2</p>
+                    </div>
+                    <div class="footer-item-links--flex">
+                        <img src="./img/w-phone.png" alt="">
+                        <a href="#" class="footer-item-links__item">+7(000) 000 - 00 - 00</a>
+                    </div>
+                    <div class="footer-item-links--flex">
+                        <img src="./img/w-message.png" alt="">
+                        <a href="#" class="footer-item-links__item">info@vkkuhni.ru</a>
+                    </div>
+                    <img class="footer-vk" src="./img/vk.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-lower">
+            <button type="button" class="factory-btn btn--dark footer-btn-pay">Оплата через сайт</button>
+            <a class="footer-lower__href" href="#">Политика конфиденциальности</a>
+            <a class="footer-lower__href" href="#">Публичная оферта</a>
+        </div>
+    </div>
+</footer>
+<!----------- /footer  ----------->
+
+
+<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/ymaps.js"></script>
+</body>
+</html>
